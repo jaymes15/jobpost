@@ -1,0 +1,213 @@
+@font-face {
+  font-family: Chateau;
+  src: url(../assets/fonts/logotitle.otf),
+      
+}
+
+
+
+
+header{
+
+	height: 130px;
+	background-color:#FFFFFF;
+	margin-top:-23px;
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top:30px;
+
+
+}
+
+header .jobpost-logo .img-title{
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	position: relative;
+	top: 10px;
+	margin-left: 20px;
+}
+
+header .jobpost-logo img{
+	height: 80px;
+}
+
+header .nav{
+position: relative;
+top:-70px;
+
+letter-spacing: 0px;
+font: normal normal 800 16px/19px Montserrat;
+color: #AFAFAF;
+opacity: 1;
+}
+
+header .nav a{
+	text-align: center;
+	color:#AFAFAF;
+	opacity: 1;
+	padding-left: 19px;
+	
+	
+}
+
+header .nav a:hover{
+	
+	
+    color: black;
+	
+}
+
+header .nav a:active{
+	
+	background-color: #4CAF50;
+    color: white;
+	
+}
+
+
+.jobpost-banner{
+	background-image: url("../assets/banner.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 350px;
+}
+
+.jobpost-banner .jobpost-banner-content{
+	position: relative;
+	top: 100px;
+	background-color: #FF3E80;
+	height: 200px;
+	width: 50%;
+	opacity: 0.7;
+
+}
+
+.jobpost-banner .jobpost-banner-content h3{
+	padding-top: 40px;
+	color: white;
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.jobpost-banner .jobpost-banner-content h5{
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	font-size: 50px;
+	
+	
+}
+
+
+.nav{
+	margin-top: 30px;
+	font-family: Montserrat;
+	color:#AFAFAF;
+
+
+}
+
+
+.nav h4 .wcan-job{
+	padding-left: 50px;
+}
+
+.jobs{
+	margin-top: 40px;
+}
+
+.jobs .job-cards{
+	background-color: #AFAFAF;
+	min-height: 300px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+
+}
+
+
+.jobs .job-cards .header h3{
+	font-family: Montserrat;
+}
+
+.jobs .job-cards .header h5{
+	font-family: Montserrat;
+	font-weight: 20;
+	color:grey;
+}
+
+.jobs .job-cards .job-apply-btn{
+	margin-top: 20px;
+	margin-right: 55px;
+	width: 40%;
+	height: 50px;
+	background:  #FF3E80 0% 0% no-repeat padding-box;
+
+	
+	opacity: 1;
+	color:white;
+	border:0px; 
+}
+
+
+.jobs .job-cards .post-date h5{
+	
+	font-style: italic;
+	color: grey;
+}
+
+.sidebar{
+	margin-top: 30px;
+	
+}
+
+.sidebar .job-post-btn{
+	margin-right: 55px;
+	width: 20%;
+	height: 50px;
+	background:  #FF3E80 0% 0% no-repeat padding-box;
+
+	
+	opacity: 1;
+	color:white;
+	border:0px; 
+}
+
+.sidebar .news-letter{
+	font-family: Montserrat;
+	margin-top: 30px;
+	background-color: #FDE5E7;
+	padding-bottom: 30px;
+	width: 25%;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.sidebar h3{
+	color:#46191E;
+}
+.sidebar .news-letter input[type=text] {
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 40px;
+  width: 80%;
+  height: 50px;
+  padding: 20px;
+  background-color:#FDE5E7; 
+  
+}
+
+.sidebar .news-letter .newsletter-btn{
+	margin-right: 55px;
+	margin-top: 30px;
+	width: 70%;
+	
+	height: 50px;
+	background:  #FF3E80 0% 0% no-repeat padding-box;
+
+	
+	opacity: 1;
+	color:white;
+	border:0px; 
+}
