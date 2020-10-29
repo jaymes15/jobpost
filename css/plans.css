@@ -1,8 +1,22 @@
 @font-face {
-  font-family: Chateau;
-  src: url(../assets/fonts/logotitle.otf),
+  font-family: new;
+  src: url('./../assets/fonts/logotitle.otf');
       
 }
+
+@font-face {
+  font-family: Futura Medium;
+  src: url('./../assets/fonts/Futura Medium.otf');
+      
+}
+
+@font-face {
+  font-family: Futura Light;
+  src: url('./../assets/fonts/Futura Light.otf');
+      
+}
+
+
 
 
 
@@ -20,7 +34,7 @@ header{
 }
 
 header .jobpost-logo .img-title{
-	font-family: 'Dancing Script', cursive;
+	font-family: 'new', cursive;
 	font-size: 50px;
 	position: relative;
 	top: 10px;
@@ -36,7 +50,7 @@ position: relative;
 top:-70px;
 
 letter-spacing: 0px;
-font: normal normal 800 16px/19px Montserrat;
+font: normal normal 800 16px/19px Futura Light;
 color: #AFAFAF;
 opacity: 1;
 }
@@ -85,13 +99,13 @@ header .nav a:active{
 .jobpost-banner .jobpost-banner-content h3{
 	padding-top: 40px;
 	color: white;
-	font-family: Montserrat;
+	font-family: Futura Medium;
 	font-weight: bolder;
 	font-size: 30px;
 }
 
 .jobpost-banner .jobpost-banner-content h5{
-	font-family: 'Dancing Script', cursive;
+	font-family: 'new', cursive;
 	color: white;
 	font-size: 50px;
 	
@@ -101,7 +115,7 @@ header .nav a:active{
 
 .nav{
 	margin-top: 30px;
-	font-family: Montserrat;
+	font-family:Futura Light;
 	color:#AFAFAF;
 
 
@@ -128,11 +142,11 @@ header .nav a:active{
 
 
 .jobs .job-cards .header h3{
-	font-family: Montserrat;
+	font-family: Futura Medium;
 }
 
 .jobs .job-cards .header h5{
-	font-family: Montserrat;
+	font-family: Futura Light;
 	font-weight: 20;
 	color:grey;
 }
