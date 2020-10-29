@@ -147,6 +147,12 @@ header .jobpost-logo .img-title{
 
 }
 
+.jobs .job-cards .image img{
+	width:200px;
+	position: relative;
+	right:-100px;
+	top:-15px;
+}
 
 .jobs .job-cards .header h3{
 	font-family:  Futura Medium;
@@ -250,4 +256,24 @@ header .jobpost-logo .img-title{
 	left:390px;
 	top:30px;
 	font-size: 30px;
+}
+
+.search{
+	margin-top:50px;
+	margin-bottom: 90px;
+}
+
+.search .search-text{
+	font-family: Futura Medium;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.search input[type=text]{
+	font-family: Futura Medium;
+	border:none;
+	background-color:#E4E4E4;
+	height: 50px;
+	width: 270px;
+	padding: 20px;
 }
